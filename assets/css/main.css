@@ -90,6 +90,10 @@ input, select, textarea {
 		line-height: 1.75em;
 		color: #888;
 	}
+	
+	.breadtext {
+		font-size: 12pt;
+	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 			-moz-animation: none !important;
@@ -122,7 +126,7 @@ input, select, textarea {
 	}
 
 		h1 a strong, h2 a strong, h3 a strong, h4 a strong, h5 a strong, h6 a strong {
-			color: #333;
+			color: inherit;
 		}
 
 	h2 {
@@ -165,8 +169,8 @@ input, select, textarea {
 
 	a {
 		text-decoration: none;
-		color: inherit;
-		border-bottom: dotted 1px rgba(128, 128, 128, 0.5);
+		color: #03b1fc;
+		border-bottom: dotted 1px #03b1fc;
 		-moz-transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
 		-webkit-transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
 		-ms-transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
@@ -2248,7 +2252,7 @@ input, select, textarea {
 
 			#main > section.one {
 				background-color: #81918E;
-				background-image: url("../../images/banner.jpg");
+				background-image: url("../../images/NeonHorizon_overview2.PNG");
 			}
 
 			#main > section.two {
